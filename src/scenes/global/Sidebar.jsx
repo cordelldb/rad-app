@@ -45,7 +45,7 @@ const Sidebar = () => {
     <Box
       sx={{
         "& .pro-sidebar-inner": {
-          background: `${colors.primary[400]} !important`,
+          background: `${colors.primary[500]} !important`,
         },
         "& .pro-icon-wrapper": {
           backgroundColor: "transparent !important",
@@ -79,7 +79,7 @@ const Sidebar = () => {
                 alignItems="center"
                 ml="15px"
               >
-                <Typography variant="h6" color={colors.grey[100]}>
+                <Typography variant="h5" color={colors.redAccent[500]}>
                   HIGHLY CLASSIFIED
                 </Typography>
                 <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>

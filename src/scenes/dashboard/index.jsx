@@ -40,7 +40,7 @@ const Dashboard = () => {
         <Box>
           <Button
             sx={{
-              backgroundColor: colors.blueAccent[700],
+              backgroundColor: colors.grey[400],
               color: colors.grey[100],
               fontSize: "14px",
               fontWeight: "bold",
